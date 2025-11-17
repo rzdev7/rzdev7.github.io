@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfólio do Desenvolvedor Back-End - [coloque seu nome aqui]">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Ricardo Souza </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="particles-bg"></div>
+    <nav>
+        <ul>
+            <li><a href="#home">Início</a></li>
+            <li><a href="#about">Sobre mim</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </nav>
+    <header id="home">
+        <div class="intro">
+            <img src="ricardao.jpg" alt="Foto do Desenvolvedor" class="avatar">
+            <h1 id="typewriter"> Ricardo Souza </h1>
+            <p>Dev Back-End, as vezes me arrisco no Front.</p>
+        </div>
+    </header>
+    <section id="about" class="reveal">
+        <h2>Sobre mim</h2>
+        <p>Sou Desenvolvedor Back-End de 20 anos e com 3 anos de experiência, trabalhei durante 1 ano com analise de dados usando pandas e tenho inglês, atualmente cursando analise e desenvolvimento de sistemas. possuo fácilidade com apredizado e lógica, tenho experiência com Python, Java, JS e bancos de dados.</p>
+    </section>
+    <section id="skills" class="reveal">
+        <h2>Habilidades</h2>
+        <div class="card-container">
+            <div class="card reveal">Python</div>
+            <div class="card reveal">Java</div>
+            <div class="card reveal">MySQL</div>
+            <div class="card reveal">MongoDB</div>
+            <div class="card reveal">HTML</div>
+            <div class="card reveal">CSS</div>
+            <div class="card reveal">JavaScript</div>
+            <div class="card reveal">Pandas</div>
+            <div class="card reveal">Spring</div>
+        </div>
+    </section>
+    <section id="projects" class="reveal">
+        <h2>Projetos</h2>
+        <div class="projects-grid">
+            <div class="project-card reveal">
+                <img src="landing.jpg" alt="Projeto 1">
+                <h3>Landing Page</h3>
+                <p>Landing page usando HTML, CSS e JavaScript.</p>
+                <a href="#" target="_blank">Ver projeto</a>
+            </div>
+            <div class="project-card reveal">
+                <img src="imge.png" alt="Projeto 2">
+                <h3>Controle de Gastos</h3>
+                <p>Controle de gastos usando Pandas e MongoDB.</p>
+                <a href="https://github.com/rzdev7/Controle-gastos" target="_blank">Ver projeto</a>
+            </div>
+            <div class="project-card reveal">
+                <img src="image.png" alt="Projeto 3">
+                <h3>Gestão de Usuários</h3>
+                <p>Sistema de autenticação e gestão de usuários com Java.</p>
+                <a href="https://github.com/rzndev7/Crud-Java-puro" target="_blank">Ver projeto</a>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="reveal">
+        <h2>Contato</h2>
+        <div class="social">
+            <a href="https://github.com/rzdev7" target="_blank">GitHub</a>
+            <a href="#" target="_blank">Linkedin</a>
+            <a href="curriculo.pdf" download>Baixar CV</a>
+        </div>
+        <form id="contactForm">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 Ricardo Souza. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
